@@ -10,7 +10,7 @@ public class Pessoa {
 	}
 
 	public String getUltimoNome() {
-		return ultimoNome;
+		return ultimoNome;	
 	}
 
 	public void setPrimeiroNome(String primeiroNome) {

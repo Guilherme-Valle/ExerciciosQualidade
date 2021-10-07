@@ -2,7 +2,7 @@ package br.ufba.isp;
 
 import java.time.LocalDateTime;
 
-public class Livro implements IItemBiblioteca {
+public class Livro implements ILivroEmprestavel {
     public String idItemBiblioteca;
     public String titulo;
     public String autor;

@@ -4,7 +4,7 @@ import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Filme implements IItemBiblioteca {
+public class Filme implements IFilmeEmprestavel {
     public String idItemBiblioteca;
     public String titulo;
     public int duracaoEmprestimoEmDias = 21;
@@ -40,22 +40,6 @@ public class Filme implements IItemBiblioteca {
 
 	public void setTitulo(String titulo) {
 		this.titulo = titulo;
-	}
-
-	public String getAutor() {
-		return "";
-	}
-
-	public void setAutor(String autor) {
-		
-	}
-
-	public int getNumeroPaginas() {
-		return 0;
-	}
-
-	public void setNumeroPaginas(int numeroPaginas) {
-		
 	}
 
 	public int getDuracaoEmprestimoEmDias() {

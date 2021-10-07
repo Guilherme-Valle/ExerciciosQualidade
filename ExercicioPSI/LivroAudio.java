@@ -2,7 +2,7 @@ package br.ufba.isp;
 
 import java.time.LocalDateTime;
 
-public class LivroAudio implements IItemBiblioteca {
+public class LivroAudio implements ILivroAudioEmprestavel {
     public String idItemBiblioteca;
     public String titulo;
     public String autor;
@@ -46,14 +46,6 @@ public class LivroAudio implements IItemBiblioteca {
 
 	public void setAutor(String autor) {
 		this.autor = autor;
-	}
-
-	public int getNumeroPaginas() {
-		return 0;
-	}
-
-	public void setNumeroPaginas(int numeroPaginas) {
-		
 	}
 
 	public int getDuracaoEmprestimoEmDias() {
